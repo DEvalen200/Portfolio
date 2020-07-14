@@ -11,6 +11,13 @@
   main {
     align-items: center;
     text-align: center;
+    padding: 4rem 0;
+
+    &#home {
+      h2 {
+        width: 100%;
+      }
+    }
 
     .lg-heading {
       margin-left: -100%;
