@@ -39,6 +39,7 @@
   }
 
   .menu-branding {
+    background-color: darken($primary-color, 7);
     .portrait {
       background: url("../img/PixelTurtleFull small.png");
       width: 150px;
