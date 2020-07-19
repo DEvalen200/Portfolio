@@ -206,7 +206,7 @@ main {
     padding: 4rem 0; }
     main#home h2 {
       width: 100%; }
-    main .lg-heading {
+    main#home .lg-heading {
       margin-left: -100%;
       margin-right: -100%;
       line-height: 1;
@@ -241,6 +241,7 @@ main {
       float: none;
       margin: auto; }
     .about-info .bio {
+      margin: auto;
       margin-top: 30px;
       max-width: calc(100vw - 64px); } }
 
