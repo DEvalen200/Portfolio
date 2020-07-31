@@ -1,5 +1,29 @@
 // Widescreens
 @include mediaXL {
+  .about-info {
+    .bio {
+      h3 {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+      }
+
+      .Name {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 12px;
+        margin-bottom: 0;
+        text-align: justify;
+      }
+
+      .Bio {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        text-align: justify;
+      }
+    }
+  }
 }
 
 // Desktops & Laptops
@@ -71,6 +95,23 @@
       margin: auto;
       margin-top: 30px;
       max-width: calc(100vw - 64px);
+
+      h3 {
+        margin-left: 0;
+        font-size: 3rem;
+      }
+
+      .Name {
+        text-align: center;
+        margin: 0;
+        font-size: 1.25rem;
+      }
+
+      .Bio {
+        text-align: center;
+        margin: 0;
+        font-size: 1.25rem;
+      }
     }
   }
 }
