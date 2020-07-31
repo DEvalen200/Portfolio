@@ -74,6 +74,49 @@ main {
       margin-top: 20vh;
     }
   }
+
+  &#about {
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 12px;
+      text-align: justify;
+    }
+
+    h3 {
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.lightenOnHover {
+  &:hover {
+    &.YouTube {
+      color: lighten(rgb(190, 0, 0), 20);
+    }
+
+    &.Twitch {
+      color: lighten(rgb(134, 5, 255), 20);
+    }
+
+    &.Twitter {
+      color: lighten(rgb(5, 197, 255), 30);
+    }
+  }
+
+  &.YouTube {
+    color: rgb(190, 0, 0);
+  }
+
+  &.Twitch {
+    color: rgb(134, 5, 255);
+  }
+
+  &.Twitter {
+    color: rgb(5, 197, 255);
+  }
 }
 
 .about-info {
