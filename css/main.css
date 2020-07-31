@@ -160,6 +160,33 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#about p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+    text-align: justify; }
+  main#about h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px; }
+
+.lightenOnHover:hover.YouTube {
+  color: #ff2525; }
+
+.lightenOnHover:hover.Twitch {
+  color: #b76bff; }
+
+.lightenOnHover:hover.Twitter {
+  color: #9ee8ff; }
+
+.lightenOnHover.YouTube {
+  color: #be0000; }
+
+.lightenOnHover.Twitch {
+  color: #8605ff; }
+
+.lightenOnHover.Twitter {
+  color: #05c5ff; }
 
 .about-info {
   display: grid;
