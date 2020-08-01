@@ -218,6 +218,7 @@ main {
   max-width: calc(100vw - 64px);
   display: block; }
   .contactParent .contact h3 {
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 0; }
@@ -232,7 +233,7 @@ main {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 12px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-size: 1.25rem; }
 
 .projects {
@@ -292,19 +293,20 @@ main {
 @media screen and (min-width: 1171px) {
   .about-info .bio h3 {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 12px; }
   .about-info .bio .Name {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-bottom: 0;
     text-align: justify; }
   .about-info .bio .Bio {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0px;
-    text-align: justify; }
+    text-align: justify;
+    line-height: 2.5rem; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
