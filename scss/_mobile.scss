@@ -24,10 +24,17 @@
       }
     }
   }
+
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Desktops & Laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 // Tablets
@@ -48,6 +55,10 @@
         line-height: 1;
         margin-bottom: 1rem;
       }
+    }
+
+    &#work {
+      padding: 4rem 2rem;
     }
   }
 
@@ -114,6 +125,14 @@
       }
     }
   }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+
+    .projectText {
+      font-size: 2rem;
+    }
+  }
 }
 
 // Smartphones
@@ -129,6 +148,26 @@
   main#about h1 {
     &.lg-heading {
       font-size: 5rem;
+    }
+  }
+
+  main {
+    &#work {
+      padding: 4rem 1rem;
+
+      h1 {
+        &.lg-heading {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+
+    .projectText {
+      font-size: 3rem;
     }
   }
 }

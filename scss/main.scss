@@ -20,7 +20,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
 
   &.lg-heading {
     font-size: 6rem;
@@ -31,6 +31,10 @@ h3 {
     padding: 0.2rem 0.6rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
+}
+
+h2 {
+  font-weight: 400;
 }
 
 a {
@@ -62,8 +66,8 @@ main {
 
       &:hover {
         color: $secondary-color;
-        @include easeOut();
       }
+      @include easeOut();
     }
   }
 
@@ -146,8 +150,13 @@ main {
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
-      @include easeOut;
     }
+    @include easeOut;
+  }
+
+  .projectText {
+    font-size: 1.5rem;
+    font-weight: 300;
   }
 }
 
