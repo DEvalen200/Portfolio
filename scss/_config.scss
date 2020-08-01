@@ -32,6 +32,13 @@ $background-opacity: 0.99;
 
 // Media Query Mixins
 
+//Iphone 5S
+@mixin media5s {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
 //Small
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
