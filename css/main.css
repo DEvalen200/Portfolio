@@ -204,6 +204,16 @@ main {
     max-width: calc(100vw - 64px);
     display: block; }
 
+.contactParent .contact {
+  overflow-wrap: break-word;
+  grid-area: bio;
+  font-size: 1.5rem;
+  background: #1c1c2a;
+  padding: 0.5rem;
+  border-bottom: #1aeee3 5px solid;
+  max-width: calc(100vw - 64px);
+  display: block; }
+
 .projects {
   display: grid;
   grid-gap: 20px;
@@ -219,6 +229,10 @@ main {
   .projects .projectText {
     font-size: 1.5rem;
     font-weight: 300; }
+
+.boxes {
+  font-weight: 300;
+  font-size: 1.5rem; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -354,4 +368,6 @@ main {
   .projects {
     grid-template-columns: 1fr; }
     .projects .projectText {
-      font-size: 3rem; } }
+      font-size: 3rem; }
+  .contactParent {
+    display: grid; } }
