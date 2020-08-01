@@ -213,6 +213,23 @@ main {
   border-bottom: #1aeee3 5px solid;
   max-width: calc(100vw - 64px);
   display: block; }
+  .contactParent .contact h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0; }
+  .contactParent .contact .Name {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 1.25rem; }
+  .contactParent .contact .Bio {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 1.25rem; }
 
 .projects {
   display: grid;
@@ -373,6 +390,19 @@ main {
     grid-template-columns: 1fr; }
     .projects .projectText {
       font-size: 3rem; } }
+
+@media screen and (max-width: 320px) {
+  .menu-branding {
+    background-color: #040406;
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/PixelTurtleFull small.png");
+      width: 130px;
+      height: 130px;
+      position: relative;
+      background-position: center;
+      background-size: 100%; } }
 
 @media screen and (orientation: landscape) and (max-width: 768px) {
   .menu-branding .portrait {
