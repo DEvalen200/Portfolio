@@ -56,3 +56,9 @@ $background-opacity: 0.99;
     @content;
   }
 }
+//Landscape Mode
+@mixin Landscape {
+  @media screen and (orientation: landscape) and (max-width: 768px) {
+    @content;
+  }
+}

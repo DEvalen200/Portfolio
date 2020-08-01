@@ -373,3 +373,10 @@ main {
     grid-template-columns: 1fr; }
     .projects .projectText {
       font-size: 3rem; } }
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+  .menu-branding .portrait {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: 100%; } }
