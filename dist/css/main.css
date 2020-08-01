@@ -352,7 +352,9 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); }
     .projects .projectText {
-      font-size: 2rem; } }
+      font-size: 2rem; }
+  .contactParent {
+    display: grid; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -365,9 +367,9 @@ main {
     padding: 4rem 1rem; }
     main#work h1.lg-heading {
       font-size: 4rem; }
+  main#contact h2 {
+    font-size: 4.5rem; }
   .projects {
     grid-template-columns: 1fr; }
     .projects .projectText {
-      font-size: 3rem; }
-  .contactParent {
-    display: grid; } }
+      font-size: 3rem; } }
