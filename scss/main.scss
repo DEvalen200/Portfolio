@@ -65,7 +65,18 @@ main {
       padding: 0.4rem;
 
       &:hover {
-        color: $secondary-color;
+        &.YouTube {
+          color: lighten(rgb(190, 0, 0), 20);
+        }
+
+        &.Twitch {
+          color: lighten(rgb(134, 5, 255), 20);
+        }
+
+        &.Twitter {
+          color: $secondary-color;
+        }
+        //color: $secondary-color;
       }
       @include easeOut();
     }

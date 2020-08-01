@@ -156,7 +156,11 @@ main {
     main .icons a {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
-      main .icons a:hover {
+      main .icons a:hover.YouTube {
+        color: #ff2525; }
+      main .icons a:hover.Twitch {
+        color: #b76bff; }
+      main .icons a:hover.Twitter {
         color: #1aeee3; }
   main#home {
     min-height: 0;
