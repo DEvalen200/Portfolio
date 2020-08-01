@@ -183,6 +183,17 @@
 }
 
 @include media5s {
+  .about-info {
+    .bio {
+      h3 {
+        font-size: 2.5rem;
+      }
+      .Bio {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
   .menu-branding {
     background-color: darken($primary-color, 7);
     .portrait {
