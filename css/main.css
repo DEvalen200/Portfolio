@@ -392,6 +392,10 @@ main {
       font-size: 3rem; } }
 
 @media screen and (max-width: 320px) {
+  .about-info .bio h3 {
+    font-size: 2.5rem; }
+  .about-info .bio .Bio {
+    font-size: 1.25rem; }
   .menu-branding {
     background-color: #040406;
     height: 25vh;
