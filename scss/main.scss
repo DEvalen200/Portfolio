@@ -195,6 +195,10 @@ main {
     border-radius: 5%;
     border: 5px #fff solid;
 
+    &.AnotherNap {
+      border: 5px rgb(61, 153, 216) solid;
+    }
+
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
