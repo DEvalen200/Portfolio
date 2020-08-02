@@ -199,9 +199,29 @@ main {
       border: 5px rgb(61, 153, 216) solid;
     }
 
+    &.UnfinishedGame {
+      border: 5px rgb(34, 90, 223) solid;
+    }
+
+    &.RocketPotato {
+      border: 5px rgb(255, 41, 41) solid;
+    }
+
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
+
+      &.AnotherNap {
+        border: 5px rgb(209, 202, 197) solid;
+      }
+
+      &.UnfinishedGame {
+        border: 5px rgb(231, 89, 111) solid;
+      }
+
+      &.RocketPotato {
+        border: 5px rgb(255, 255, 255) solid;
+      }
     }
     @include easeOut;
   }
