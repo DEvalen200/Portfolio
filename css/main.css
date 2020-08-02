@@ -245,6 +245,8 @@ main {
     border-radius: 5%;
     border: 5px #fff solid;
     transition: all 0.5s ease-out; }
+    .projects img.AnotherNap {
+      border: 5px #3d99d8 solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #1aeee3; }
